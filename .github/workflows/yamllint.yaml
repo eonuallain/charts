@@ -17,7 +17,7 @@ jobs:
       - name: 'Yamllint'
         uses: karancode/yamllint-github-action@master
         with:
-          yamllint_file_or_dir: '.*.y*ml'
+          yamllint_file_or_dir: '*.y*ml'
           yamllint_strict: false
           yamllint_comment: true
         env:
