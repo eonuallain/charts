@@ -1,4 +1,4 @@
-patch_version:1
+patchVersion: 1
 
 # Default values for sonarqube.
 # This is a YAML-formatted file.
@@ -32,7 +32,7 @@ edition: "community"
 
 image:
   repository: sonarqube
-  tag: 10.4.0.{{ .Values.patch_version }}-{{ .Values.edition }}
+  tag: 10.4.0.{{ .Values.patchVersion }}-{{ .Values.edition }}
   pullPolicy: IfNotPresent
   # If using a private repository, the imagePullSecrets to use
   # pullSecrets:
