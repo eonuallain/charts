@@ -29,4 +29,4 @@ rules:
   truthy: disable
 
 ignore:
-  - ./charts/sonarqube
+  - charts/sonarqube
