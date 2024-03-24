@@ -1,6 +1,6 @@
 ---
 
-extends: default
+extends: relaxed
 
 rules:
   braces:
