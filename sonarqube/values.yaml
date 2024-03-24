@@ -9,7 +9,7 @@ deploymentType: "StatefulSet"
 replicaCount: 1
 
 # How many revisions to retain (Deployment ReplicaSets or StatefulSets)
-revisionHistoryLimit: 5
+revisionHistoryLimit: 4
 
 # This will use the default deployment strategy unless it is overriden
 deploymentStrategy: {}
